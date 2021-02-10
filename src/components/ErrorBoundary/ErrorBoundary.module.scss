@@ -1,0 +1,48 @@
+.details {
+    background-color: var(--colorBlueDark5);
+    border-radius: .4rem;
+    font-family: monospace;
+    font-size: 1.4rem;
+    letter-spacing: .05rem;
+    line-height: 2rem;
+    padding: 1rem 2rem;
+
+    summary {
+        font-weight: 500;
+    }
+}
+
+.message {
+    color: var(--colorBluePrimary100);
+    font-family: monospace;
+    font-size: 2rem;
+    letter-spacing: .05rem;
+}
+
+.error-name {
+    align-items: flex-start;
+    border-left: .3rem solid var(--colorRed100);
+    display: flex;
+    justify-content: flex-start;
+    margin-block-end: 3rem;
+    margin-block-start: 3rem;
+    padding-inline-start: .5rem;
+
+
+    h3 {
+        color: var(--colorRed100);
+        font-family: monospace;
+        font-size: 1.8rem;
+        letter-spacing: .05rem;
+        margin-inline-end: .5rem;
+    }
+
+    p {
+        color: var(--colorRed100);
+        font-family: monospace;
+        font-size: 1.7rem;
+        letter-spacing: .05rem;
+        line-height: 2rem;
+
+    }
+}

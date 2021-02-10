@@ -1,0 +1,17 @@
+export enum Actions {
+  SET_NIGHT = 'setNight',
+  SET_ACCOUNT = 'setAccount',
+  SET_PROVIDER = 'setProvider',
+  SET_ETH_BALANCE = 'setEthBalance',
+  SET_TAB = 'setTab',
+  SET_FORM_TAB = 'setFormTab',
+  SET_WEB3 = 'setWeb3',
+  SET_VPOOL = 'setvPool',
+  SET_TOKEN_BALANCE = 'setTokenBalance',
+  SET_VPOOL_BALANCE = 'setvPoolBalance',
+  SET_EXCHANGE_RATE = 'setExchangeRate',
+  SET_UNDERLYING_BALANCE = 'setUnderlyingBalance',
+  SET_BORROW_RATE = 'setBorrowRate',
+  SET_UTILIZATION = 'setUtilization',
+  SET_EPOCH = 'setEpoch',
+}
